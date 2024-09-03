@@ -1,0 +1,22 @@
+.post{
+    width: 450px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &__img{
+        width: 450px;
+        height: 350px;
+        
+    }
+    &__info{
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+        column-gap: 20px;
+    }
+    &__text{
+        width: 100%;
+        text-align: start;
+    }
+}

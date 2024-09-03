@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+.container{
+    max-width: 1200px;
+    margin:0 auto;
+}
+.header{
+    padding: 20px 0;
+    background: purple;
+    color: white;
+    a{
+        color: white;
+        text-decoration: none;
+    }
+    .container{
+        display: flex;
+        justify-content: center;
+        column-gap: 100px;
+    }
+    ul{
+        display: flex;
+        column-gap: 20px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    button{
+        padding: 7px 14px;
+        background: red;
+        color: white;
+    }
+}
